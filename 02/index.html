@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <script>function js_head() {document.querySelector("#inhead").style.color = "red"}</script>
+    <title>02</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Javascript from different locations</h1>
+    <h2 id="inline">Inline</h2>
+    <button onclick="document.querySelector('#inline').style.color = 'red'">Click</button>
+    <h2 id="inbody">In body</h2>
+    <button onclick="js_body()">Click</button>
+    <h2 id="inhead">In head</h2>
+    <button onclick="js_head()">Click</button>
+    <h2 id="external">From External File</h2>
+    <button onclick="js_external()">Click</button>
+
+    <script>
+        function js_body() {
+            document.querySelector("#inbody").style.color = "red";
+        }
+    </script>
+    
+</body>
+</html>

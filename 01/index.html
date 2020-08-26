@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1</title>
+    <title>01</title>
     <style>
         body {
             font-family: Arial, sans-serif;
         }
     </style>
 </head>
-
 <body>
-    <p>1. Install Visual Studio Code</p>
-    <p>2. Emmet is already built in</p>
-    <p>3. type ! and TAB to start a template</p>
+    <h1>Display current date</h1>
+    <h2></h2>
+    <button onclick="alert(new Date())">Alert</button>   
 </body>
-
 </html>
+
+<script>
+    date = new Date();
+    console.log(date);
+    document.querySelector("h2").innerHTML = date.getMonth() + "/" + date.getDate() + "/" + date.getFullYear();
+</script>

@@ -1,34 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <script>function js_head() {document.querySelector("#inhead").style.color = "red"}</script>
-    <title>02</title>
+    <title>PRG 147</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         body {
+            background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+            background-attachment: fixed;
             font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: white;
+            text-align: center;
+            overflow: auto;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            margin: 15px;
+        }
+
+        h1 {
+            color: #006F93;
+            font-size: 5em;
+            margin: 20px 10px;
+            display: inline-block;
+        }
+
+        h2 {
+            color: black;
+            font-size: 1.5em;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        h3 {
+            background: #006F93;
+            color: white;
+            font-size: 1.75em;
+            text-align: center;
+            margin: 0;
+            padding: 10px;
+        }
+
+        p {
+            color: black;
+            font-size: 1.25em;
+            margin: 20px;
+        }
+
+        a {
+            background: white;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            display: block;
+            overflow: auto;
+            transition: .2s background;
+        }
+
+        a:hover {
+            background: #e0e0e0;
         }
     </style>
 </head>
 
 <body>
-    <h1>Javascript from different locations</h1>
-    <h2 id="inline">Inline</h2>
-    <button onclick="document.querySelector('#inline').style.color = 'red'">Click</button>
-    <h2 id="inbody">In body</h2>
-    <button onclick="js_body()">Click</button>
-    <h2 id="inhead">In head</h2>
-    <button onclick="js_head()">Click</button>
-    <h2 id="external">From external file</h2>
-    <button onclick="js_external()">Click</button>
+    <header>
+        <h1>PRG 147</h1>
+        <h2>Tyler Kempa</h2>
+    </header>
+    <main>
+        <section>
+            <h3>Module</h3>
+            <a href="00">
+                <p>00: Set up IDE and Emmet</p>
+            </a>
+            <a href="01">
+                <p>01: Get current date</p>
+            </a>
+            <a href="02">
+                <p>02: Script locations</p>
+            </a>
+            <a href="03">
+                <p>03:</p>
+            </a>
+        </section>
+    </main>
 
-    <script>
-        function js_body() {
-            document.querySelector("#inbody").style.color = "red";
-        }
-    </script>
-    
 </body>
+
 </html>

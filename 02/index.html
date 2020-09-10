@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <script>function js_head() {document.querySelector("#inhead").style.color = "red"}</script>
     <title>02</title>
     <style>
         body {
@@ -14,21 +13,14 @@
 </head>
 
 <body>
-    <h1>Javascript from different locations</h1>
-    <h2 id="inline">Inline</h2>
-    <button onclick="document.querySelector('#inline').style.color = 'red'">Click</button>
-    <h2 id="inbody">In body</h2>
-    <button onclick="js_body()">Click</button>
-    <h2 id="inhead">In head</h2>
-    <button onclick="js_head()">Click</button>
-    <h2 id="external">From external file</h2>
-    <button onclick="js_external()">Click</button>
-
-    <script>
-        function js_body() {
-            document.querySelector("#inbody").style.color = "red";
-        }
-    </script>
-    
+    <h1>Set up remote ftp file sharing</h1>
+    <h2>Create shortcut</h2>
+    <p>1. Start windows file explorer</p>
+    <p>2. Add network location ftp://tkempa@mccdgm.net/</p>
+    <p>3. Input credentials</p>
+    <p>4. Open folder and upload files</p>
+    <h2>Upload image</h2>
+    <img src="image.gif">
 </body>
+
 </html>

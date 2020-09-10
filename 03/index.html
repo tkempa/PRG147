@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
     <title>03</title>
     <style>
         body {
@@ -12,17 +11,14 @@
     </style>
 </head>
 <body>
-    <h1>Data types</h1>
-    <h2>Display largest number</h2>
-    <input type="text" id="input1">
-    <input type="text" id="input2">
-    <button type="button" onclick="f1()">Enter</button>
-    <p id="text1">Answer: </p>
-    <h2>Is product of 3 numbers even or odd</h2>
-    <input type="text" id="input3">
-    <input type="text" id="input4">
-    <input type="text" id="input5">
-    <button type="button" onclick="f2()">Enter</button>
-    <p id="text2">Answer: </p>
+    <h1>Display current date</h1>
+    <h2></h2>
+    <button onclick="alert(new Date())">Alert</button>   
 </body>
 </html>
+
+<script>
+    date = new Date();
+    console.log(date);
+    document.querySelector("h2").innerHTML = (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear();
+</script>

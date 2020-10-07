@@ -2,7 +2,7 @@ body {
     margin: 30px auto;
     text-align: center;
     background-color: #161414;
-    color: #999;
+    color: lightgray;
     font-family: Arial, sans-serif;
 }
 
@@ -30,4 +30,7 @@ body {
 
 #board img {
     position: absolute;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-drag: none;
 }

@@ -1,5 +1,5 @@
 //set up game
-let clickers = 4;
+let clickers = 15;
 let startTime = Date.now();
 document.querySelector("#score").innerHTML = clickers + " ricks remain";
 for (let i = 0; i < clickers; i++) addClicker();

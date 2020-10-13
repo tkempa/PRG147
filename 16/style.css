@@ -1,0 +1,65 @@
+body {
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+#display {
+    color: black;
+    font-size: 3em;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    padding: 2em;
+    height: 90vh;
+    justify-content: center;
+    align-items: middle;
+}
+
+.clockbox, #clock {
+    width: 100%;
+}
+
+.circle {
+    fill: white;
+    stroke: gray;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.hour-marks {
+    fill: none;
+    stroke: gray;
+    stroke-width: 9;
+    stroke-linecap: round;
+}
+
+.hour-arm {
+    fill: none;
+    stroke: black;
+    stroke-width: 17;
+    stroke-linecap: round;
+}
+
+.minute-arm {
+    fill: none;
+    stroke: black;
+    stroke-width: 11;
+    stroke-linecap: round;
+}
+
+.second-arm {
+    fill: none;
+    stroke: red;
+    stroke-width: 4;
+    stroke-linecap: round;
+}
+
+.sizing-box {
+    fill: none;
+}
+
+#hour, #minute, #second {
+    transform-origin: 300px 300px;
+}

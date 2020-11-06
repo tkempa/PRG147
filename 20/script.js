@@ -1,9 +1,8 @@
-colors_dark = ['rgba(255, 99, 132, .9)', 'rgba(255, 159, 64, .9)', 'rgba(255, 205, 86, .9)',
-    'rgba(75, 192, 192, .9)', 'rgba(54, 162, 235, .9)', 'rgba(153, 102, 255, .9)'];
+colors_dark = ["rgba(255, 99, 132, .9)", "rgba(255, 159, 64, .9)", "rgba(255, 205, 86, .9)",
+    "rgba(75, 192, 192, .9)", "rgba(54, 162, 235, .9)", "rgba(153, 102, 255, .9)"];
 
-colors_light = ['rgba(255, 99, 132, .4)', 'rgba(255, 159, 64, .4)', 'rgba(255, 205, 86, .4)',
-    'rgba(75, 192, 192, .4)', 'rgba(54, 162, 235, .4)', 'rgba(153, 102, 255, .4)'];
-
+colors_light = ["rgba(255, 99, 132, .4)", "rgba(255, 159, 64, .4)", "rgba(255, 205, 86, .4)",
+    "rgba(75, 192, 192, .4)", "rgba(54, 162, 235, .4)", "rgba(153, 102, 255, .4)"];
 
 c1_num = Math.floor(Math.random() * 4) + 8;
 c1_color = Math.floor(Math.random() * 6);
@@ -27,7 +26,9 @@ var chart1 = new Chart(document.querySelector("#chart1").getContext("2d"), {
             data: c1_data,
             backgroundColor: c1_backgroundColor,
             borderColor: c1_borderColor,
-            borderWidth: 2
+            borderWidth: 2,
+            fill: false,
+            lineTension: 0
         }]
     },
     options: {

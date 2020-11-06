@@ -2,12 +2,23 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.row {
+    clear: both;
+    overflow: hidden;
+}
+
 .col {
     width: 50%;
     text-align: center;
     float: left;
+    overflow: hidden;
 }
 
 section {
+    background: #eeeeee;
+    border-radius: 15px;
+    width: 50%;
+    margin: 50px auto;
+    padding: 5px 20px;;
     clear: both;
 }

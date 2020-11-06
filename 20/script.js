@@ -26,7 +26,7 @@ var chart1 = new Chart(document.querySelector("#chart1").getContext("2d"), {
             data: c1_data,
             backgroundColor: c1_backgroundColor,
             borderColor: c1_borderColor,
-            borderWidth: 2,
+            borderWidth: 3,
             fill: false,
             lineTension: 0
         }]

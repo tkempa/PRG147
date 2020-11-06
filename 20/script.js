@@ -31,7 +31,6 @@ var chart1 = new Chart(document.querySelector("#chart1").getContext("2d"), {
         }]
     },
     options: {
-        responsive: true,
         scales: {
             yAxes: [{
                 ticks: {

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <title>19</title>
+</head>
+
+<body>
+    <header>
+        <h1>Typing Speed Test</h1>
+        <p>Type the provided text in the field below. The timer starts when you start typing, and only stops when you
+            match this text exactly.</p>
+    </header>
+    <main class="main">
+        <section class="test-container">
+            <div>
+                <div class="timer">00:00:00</div>
+                <div class="wpm"></div>
+            </div>
+            <div id="origin-text">
+                <p>text</p>
+            </div>
+            <div class="test-wrapper">
+                <textarea id="test-area" name="textarea" rows="6"
+                    placeholder="The clock starts when you start typing."></textarea>
+            </div>
+            <div>
+                <button id="reset">Reset</button>
+                <button id="change">Change text</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

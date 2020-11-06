@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.col {
+    width: 50%;
+    text-align: center;
+    float: left;
+}

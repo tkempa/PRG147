@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #343A40;
+    text-align: center;
+    overflow: auto;
+}
+
+header h1 {
+    color: white;
+    font-size: 3em;
+    padding: 30px 30px 15px 30px;
+}
+
+header p {
+    color: lightgray;
+    font-size: 1.3em;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px 30px 30px 30px;
+}
+
+.test-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#origin-text {
+    background: #E9ECEF;
+    border-radius: 5px;
+    font-size: 1.3em;
+    margin: 20px 0;
+    padding: 20px;
+    clear: both;
+}
+
+.test-wrapper {
+    border: 10px solid #343A40;
+    border-radius: 5px;
+    margin: 20px 0;
+    display: flex;
+}
+
+textarea {
+    background: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+button {
+    background: #666666;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    width: 48%;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 20px 0;
+    float: left;
+    cursor: pointer;
+    transition: .2s background;
+}
+
+button#reset {
+    margin-right: 2%;
+}
+
+button#change {
+    margin-left: 2%;
+}
+
+#change:hover, #reset:hover {
+    background-color: #017AFB;
+    color: white;
+}
+
+.timer {
+    color: black;;
+    font-size: 3em;
+    font-weight: bold;
+    float: left;
+    margin: 20px 0;
+}
+
+.wpm {
+    color: black;;
+    font-size: 3em;
+    font-weight: bold;
+    float: right;
+    margin: 20px 0;
+}

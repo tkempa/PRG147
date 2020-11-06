@@ -1,0 +1,89 @@
+body {
+    margin: 30px auto;
+    text-align: center;
+    background-color: #161414;
+    color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+.header_row {
+    background: #F6D500;
+    border-radius: 10px;
+    color: #EB5757;
+    font-size: 22px;
+    font-weight: bold;
+    width: 640px;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+#score {
+    float: left;
+    padding: 10px;
+}
+
+#timer {
+    float: right;
+    padding: 10px;
+}
+
+.button_row {
+    width: 640px;
+    margin: auto;
+    overflow: auto;
+}
+
+.button {
+    background: #EB5757;
+    border-radius: 10px;
+    color: #F6D500;
+    font-size: 22px;
+    font-weight: bold;
+    width: 40%;
+    margin: 10px 5%;
+    padding: 10px 0;
+    float: left;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:hover {
+    background: #EB8D8D;
+}
+
+#board {
+    width: 640px;
+    height: 480px;
+    margin: auto;
+    border: 1px solid black;
+    padding-top: 20px;
+
+    position: relative;
+    background-color: #88CCDD;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(rc2000.png);
+    color: white;
+    min-height: 100%;
+
+    border: 1px solid #222;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+.rick {
+    background: url("rick.png");
+    width: 130px;
+    height: 168px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#win {
+    color: #EB5757;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px auto;
+}

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: cyan;
+}
+
+#b3 {
+    background: #999999;
+    width: 80px;
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+#b3:hover {
+    background: #bbbbbb;
+}
+
+#b6 {
+    background: #999999;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    cursor: pointer;
+}

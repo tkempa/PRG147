@@ -1,0 +1,29 @@
+{
+    "shopping_list": [
+        {
+            "name": "Pepperoni Pizza",
+            "price": "$3.98",
+            "quantity": "2"
+        },
+        {
+            "name": "Spaghetti",
+            "price": "$5.14",
+            "quantity": "1"
+        },
+        {
+            "name": "Baby Carrots",
+            "price": "$2.86",
+            "quantity": "1"
+        },
+        {
+            "name": "White Bread",
+            "price": "$0.88",
+            "quantity": "1"
+        },
+        {
+            "name": "Pretzels",
+            "price": "$2.98",
+            "quantity": "1"
+        }
+    ]
+}

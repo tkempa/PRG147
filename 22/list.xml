@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shopping_list>
+  <item>
+    <name>Pepperoni Pizza</name>
+    <price>$3.98</price>
+    <quantity>2</quantity>
+  </item>
+  <item>
+    <name>Spaghetti</name>
+    <price>$5.14</price>
+    <quantity>1</quantity>
+  </item>
+  <item>
+    <name>Baby Carrots</name>
+    <price>$2.86</price>
+    <quantity>1</quantity>
+  </item>
+  <item>
+    <name>White Bread</name>
+    <price>$0.88</price>
+    <quantity>1</quantity>
+  </item>
+  <item>
+    <name>Pretzels</name>
+    <price>$2.98</price>
+    <quantity>1</quantity>
+  </item>
+</shopping_list>

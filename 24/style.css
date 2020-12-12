@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #CCCCCC;
+    clear: both;
+    overflow: auto;
+}
+
+header h1 {
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px;
+    float: left;
+}
+
+header .section {
+    float: right;
+    width: 500px;
+}
+
+.board {
+    background: black;
+    width: 600px;
+    margin: 20px auto;
+    clear: both;
+    overflow: auto;
+}
+
+.square {
+    background: #CCCCCC;
+    width: 32%;
+    height: 180px;
+    float: left;
+    cursor: pointer;
+}
+
+#s1, #s4, #s7 {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#s3, #s4, #s5 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.game {
+    background: #CCCCCC;
+    width: 700px;
+    margin: 15px auto;
+}
+
+.game .section {
+    text-align: center;
+    clear: both;
+    overflow: auto;
+}
+
+.section .text {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+}
+
+.section .row:nth-of-type(1) .text {
+    width: 33.33%;
+    padding: 10px 0 0 0;
+}
+
+.section .row:nth-of-type(2) .text {
+    width: 33.33%;
+    padding: 0 0 10px 0;
+}
+
+.button {
+    background: #666666;
+    border-radius: 10px;;
+    color: white;
+    border: 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: 10px 0;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:hover {
+    background: #888888;
+}
+
+.displaysquare {
+    width: 26px;
+    height: 26px;
+    float: left;
+}
+
+#state {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#settings, #reset {
+    width: 25%;
+}
+
+#overlay {
+    background: rgba(0, 0, 0, .7);
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#overlay-box {
+    background: white;
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 20px;
+    overflow: auto;
+}
+
+
+#overlay-box h2 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#overlay-box h3 {
+    color: black;
+    font-size: 30px;
+    margin: 20px 0 10px 0;
+}
+
+#overlay-box .row {
+    clear: both;
+    overflow: auto;
+}
+
+#p1name, #p2name {
+    text-decoration: underline;
+    margin: 0 10px;
+}
+
+#exit {
+    margin-top: 20px;
+    display: block;
+}

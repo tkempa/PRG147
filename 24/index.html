@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="script.js" async></script>
+	<title>24</title>
+</head>
+
+<body>
+	<header>
+		<h1>Tic Tac Toe</h1>
+		<div class="section">
+			<div class="row">
+				<div class="text">Player 1</div>
+				<div class="text">Player 2</div>
+				<div class="text">Draw</div>
+			</div>
+			<div class="row">
+				<div id="p1score" class="text">0</div>
+				<div id="p2score" class="text">0</div>
+				<div id="draws" class="text">0</div>
+			</div>
+		</div>
+
+	</header>
+	<div class="game">
+		<div class="section">
+			<div id="state" class="text"></div>
+		</div>
+		<div class="board">
+			<div id="s0" class="square"></div>
+			<div id="s1" class="square"></div>
+			<div id="s2" class="square"></div>
+			<br>
+			<div id="s3" class="square"></div>
+			<div id="s4" class="square"></div>
+			<div id="s5" class="square"></div>
+			<br>
+			<div id="s6" class="square"></div>
+			<div id="s7" class="square"></div>
+			<div id="s8" class="square"></div>
+		</div>
+		<div class="section">
+			<div id="settings" class="button">Settings</div>
+			<div id="reset" class="button">Reset</div>
+		</div>
+	</div>
+	<div id="overlay">
+		<div id="overlay-box">
+			<h2>Settings</h2>
+			
+			<div class="section">
+				<div id="p1square" class="displaysquare"></div>
+				<div id="p1name" class="text">Player 1</div>
+				<div id="p1color" class="button">Color</div>
+				<div id="p1bot" class="button">Human</div>
+			</div>
+			<br>
+			<div class="section">
+				<div id="p2square" class="displaysquare"></div>
+				<div id="p2name" class="text">Player 2</div>
+				<div id="p2color" class="button">Color</div>
+				<div id="p2bot" class="button">Bot</div>
+			</div>
+			<h3>About</h3>
+			<p id="credit"></p>
+			<div id="exit" class="button" onclick="closeSettings()">Exit</div>
+		</div>
+	</div>
+</body>
+
+</html>
